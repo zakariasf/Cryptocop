@@ -1,4 +1,0 @@
-C:\Users\Zakki\Documents\Cryptocop\template\Cryptocop.Software.API\Cryptocop.Software.API.Services\obj\Debug\netcoreapp3.1\Cryptocop.Software.API.Services.csprojAssemblyReference.cache
-C:\Users\Zakki\Documents\Cryptocop\template\Cryptocop.Software.API\Cryptocop.Software.API.Services\obj\Debug\netcoreapp3.1\Cryptocop.Software.API.Services.AssemblyInfoInputs.cache
-C:\Users\Zakki\Documents\Cryptocop\template\Cryptocop.Software.API\Cryptocop.Software.API.Services\obj\Debug\netcoreapp3.1\Cryptocop.Software.API.Services.AssemblyInfo.cs
-C:\Users\Zakki\Documents\Cryptocop\template\Cryptocop.Software.API\Cryptocop.Software.API.Services\obj\Debug\netcoreapp3.1\Cryptocop.Software.API.Services.csproj.CoreCompileInputs.cache
