@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Cryptocop.Software.API.Models.DTOs;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Cryptocop.Software.API.Controllers
 {
@@ -12,6 +13,7 @@ namespace Cryptocop.Software.API.Controllers
         //api/account/register [POST]
         [HttpPost]
         [Route("/register")]
+        public UserDto RegisterUser()
         
         //api/account/signin [POST]
         //api/account/signout [GET]
