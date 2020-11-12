@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZWFqaPihvrq/WRMYlwGdymGHb1Il+AVzuh4+GR4wNYQdwdPHFEnOiAe89SLhGZv3lcKfApmP1VnXvHwxZsy7g==",
+  "dgSpecHash": "1+0rMu8cHGSK4844JsA/fTgnYnILBbp8dz3txHaaBp/VPssZp8Vu1cwHSHLVR7U4ckQFsnxbfNXeTKqcSbqvRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj",
+  "projectFilePath": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Models/Cryptocop.Software.API.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Zakki\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+    "/Users/zakariasfridriksson/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512"
   ],
   "logs": []
 }

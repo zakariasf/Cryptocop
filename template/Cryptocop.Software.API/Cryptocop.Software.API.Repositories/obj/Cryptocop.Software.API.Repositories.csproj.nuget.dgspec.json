@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Repositories\\Cryptocop.Software.API.Repositories.csproj": {}
+    "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Repositories/Cryptocop.Software.API.Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj": {
+    "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Models/Cryptocop.Software.API.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj",
+        "projectUniqueName": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Models/Cryptocop.Software.API.Models.csproj",
         "projectName": "Cryptocop.Software.API.Models",
-        "projectPath": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj",
-        "packagesPath": "C:\\Users\\Zakki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\obj\\",
+        "projectPath": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Models/Cryptocop.Software.API.Models.csproj",
+        "packagesPath": "/Users/zakariasfridriksson/.nuget/packages/",
+        "outputPath": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zakki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/zakariasfridriksson/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -58,35 +58,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Repositories\\Cryptocop.Software.API.Repositories.csproj": {
+    "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Repositories/Cryptocop.Software.API.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Repositories\\Cryptocop.Software.API.Repositories.csproj",
+        "projectUniqueName": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Repositories/Cryptocop.Software.API.Repositories.csproj",
         "projectName": "Cryptocop.Software.API.Repositories",
-        "projectPath": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Repositories\\Cryptocop.Software.API.Repositories.csproj",
-        "packagesPath": "C:\\Users\\Zakki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Repositories\\obj\\",
+        "projectPath": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Repositories/Cryptocop.Software.API.Repositories.csproj",
+        "packagesPath": "/Users/zakariasfridriksson/.nuget/packages/",
+        "outputPath": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Repositories/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zakki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/zakariasfridriksson/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj": {
-                "projectPath": "C:\\Users\\Zakki\\Documents\\Cryptocop\\template\\Cryptocop.Software.API\\Cryptocop.Software.API.Models\\Cryptocop.Software.API.Models.csproj"
+              "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Models/Cryptocop.Software.API.Models.csproj": {
+                "projectPath": "/Users/zakariasfridriksson/Desktop/HR/Onn_5/VEFÞ/Cryptocop/template/Cryptocop.Software.API/Cryptocop.Software.API.Models/Cryptocop.Software.API.Models.csproj"
               }
             }
           }
@@ -99,6 +98,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
               "target": "Package",
@@ -128,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
