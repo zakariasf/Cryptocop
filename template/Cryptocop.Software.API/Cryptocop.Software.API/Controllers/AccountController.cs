@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Cryptocop.Software.API.Models.DTOs;
+using Cryptocop.Software.API.Models.ImputModels;
+using Cryptocop.Software.API.Services.Implementations;
+using Cryptocop.Software.API.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Cryptocop.Software.API.Controllers
 {
@@ -6,12 +10,15 @@ namespace Cryptocop.Software.API.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        // TODO: Setup routes
-        // TODO: Register and signin POST endpoints that dont need the JWT authentication
+        private readonly IAccountService accountService = new AccountService();
 
         //api/account/register [POST]
         [HttpPost]
         [Route("/register")]
+        public UserDto RegisterUser(RegisterInputModel registerModel)
+        {
+            return accountService.CreateUser(registerModel);
+        }
         
         //api/account/signin [POST]
         //api/account/signout [GET]
