@@ -1,6 +1,9 @@
+using System.Reflection;
+using Cryptocop.Software.API.Repositories.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,9 +25,18 @@ namespace Cryptocop.Software.API
             services.AddControllers().AddNewtonsoftJson(options =>
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
             );
+
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.SuppressModelStateInvalidFilter = true;
+            });
+
+            services.AddDbContext<CryptocopDbContext>(options =>
+            {
+                options.UseNpgsql(Configuration.GetConnectionString("CryptocopDatabase"), options =>
+                {
+                    options.MigrationsAssembly(Assembly.GetExecutingAssembly().FullName);
+                });
             });
         }
 
