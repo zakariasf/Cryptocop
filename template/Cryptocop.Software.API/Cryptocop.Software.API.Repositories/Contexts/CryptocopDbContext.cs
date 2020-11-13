@@ -5,6 +5,8 @@ namespace Cryptocop.Software.API.Repositories.Contexts
 {
     public class CryptocopDbContext : DbContext
     {
+        internal object users;
+
         public CryptocopDbContext(DbContextOptions<CryptocopDbContext> options)
         : base(options)
         { }

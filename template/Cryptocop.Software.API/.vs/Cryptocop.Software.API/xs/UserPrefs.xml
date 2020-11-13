@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{432F7E92-1B02-4992-B795-F33D5E23FBE7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cryptocop.Software.API.Repositories/Implementations/AddressRepository.cs">
+    <Files>
+      <File FileName="Cryptocop.Software.API.Models/DTOs/CryptocurrencyDto.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Models/ImputModels/AddressInputModel.cs" Line="10" Column="9" />
+      <File FileName="Cryptocop.Software.API.Models/ImputModels/LoginInputModel.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Models/ImputModels/OrderInputModel.cs" />
+      <File FileName="Cryptocop.Software.API.Models/ImputModels/PaymentCardInputModel.cs" />
+      <File FileName="Cryptocop.Software.API.Models/ImputModels/RegisterInputModel.cs" />
+      <File FileName="Cryptocop.Software.API.Models/ImputModels/ShoppingCartItemInputModel.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Models/Entities/User.cs" />
+      <File FileName="Cryptocop.Software.API.Repositories/migrations/createTables.sql" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Models/Entities/PaymentCard.cs" />
+      <File FileName="Cryptocop.Software.API.Models/Entities/ShoppingCart.cs" />
+      <File FileName="Cryptocop.Software.API.Models/Entities/ShoppingCartItem.cs" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/AddressRepository.cs" Line="40" Column="53" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/PaymentRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/OrderRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Interfaces/IAddressRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Interfaces/IOrderRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/ShoppingCartRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/UserRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/TokenRepository.cs" Line="2" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Interfaces/IUserRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Interfaces/ITokenRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Models/DTOs/AddressDto.cs" Line="9" Column="8" />
+      <File FileName="Cryptocop.Software.API/Controllers/AddressController.cs" Line="37" Column="1" />
+      <File FileName="Cryptocop.Software.API/Startup.cs" Line="40" Column="13" />
+      <File FileName="Cryptocop.Software.API.Repositories/Interfaces/IPaymentRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API/Controllers/AccountController.cs" Line="17" Column="19" />
+      <File FileName="Cryptocop.Software.API.Services/Implementations/AddressService.cs" Line="34" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cryptocop.Software.API" expanded="True">
+            <Node name="Cryptocop.Software.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Cryptocop.Software.API.Repositories" expanded="True">
+              <Node name="Contexts" expanded="True" />
+              <Node name="Implementations" expanded="True">
+                <Node name="AddressRepository.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Cryptocop.Software.API.Services" expanded="True">
+              <Node name="Implementations" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Cryptocop.Software.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
