@@ -10,6 +10,5 @@
 
   <ItemGroup>
     <Folder Include="ImputModels\" />
-    <Folder Include="Entities\" />
   </ItemGroup>
 </Project>

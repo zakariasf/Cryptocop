@@ -1,19 +1,32 @@
 ﻿using Cryptocop.Software.API.Repositories.Interfaces;
 using Cryptocop.Software.API.Models.DTOs;
 using Cryptocop.Software.API.Models.ImputModels;
+using Cryptocop.Software.API.Repositories.Contexts;
 
 namespace Cryptocop.Software.API.Repositories.Implementations
 {
-    public class UserRepository: IUserRepository
+    public class UserRepository : IUserRepository
     {
-        public UserDto CreateUser(RegisterInputModel inputModel)
+
+        private readonly CryptocopDbContext _dbContext;
+
+        public UserRepository()
         {
-            return new UserDto();
+        }
+
+        public UserRepository(CryptocopDbContext dbContext)
+        {
+            _dbContext = dbContext;
         }
 
         public UserDto AuthenticateUser(LoginInputModel loginInputModel)
         {
-            return new UserDto();
+            throw new System.NotImplementedException();
+        }
+
+        public UserDto CreateUser(RegisterInputModel inputModel)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

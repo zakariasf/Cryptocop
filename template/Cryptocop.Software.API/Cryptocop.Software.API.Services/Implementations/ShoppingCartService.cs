@@ -4,6 +4,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Cryptocop.Software.API.Repositories.Interfaces;
 using Cryptocop.Software.API.Services.Helpers;
+using Cryptocop.Software.API.Models.ImputModels;
+using Cryptocop.Software.API.Models.DTOs;
 
 namespace Cryptocop.Software.API.Services.Implementations
 {

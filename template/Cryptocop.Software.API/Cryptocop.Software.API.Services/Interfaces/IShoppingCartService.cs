@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Cryptocop.Software.API.Models.DTOs;
+using Cryptocop.Software.API.Models.ImputModels;
 
 namespace Cryptocop.Software.API.Services.Interfaces
 {

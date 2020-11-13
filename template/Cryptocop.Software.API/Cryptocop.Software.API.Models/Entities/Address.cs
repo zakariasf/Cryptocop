@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 namespace Cryptocop.Software.API.Models.Entities
 {
-    public class Adress
+    public class Address
     {
         public int Id { get; set; }
         public int UserId { get; set; }
@@ -13,5 +13,7 @@ namespace Cryptocop.Software.API.Models.Entities
         public string Country { get; set; }
         public string City { get; set; }
 
+        // Navigation properties
+        public User User { get; set; }
     }
 }

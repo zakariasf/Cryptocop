@@ -1,5 +1,9 @@
 using System.Reflection;
 using Cryptocop.Software.API.Repositories.Contexts;
+using Cryptocop.Software.API.Repositories.Implementations;
+using Cryptocop.Software.API.Repositories.Interfaces;
+using Cryptocop.Software.API.Services.Implementations;
+using Cryptocop.Software.API.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +34,10 @@ namespace Cryptocop.Software.API
             {
                 options.SuppressModelStateInvalidFilter = true;
             });
+
+
+            services.AddTransient<IAddressService, AddressService>();
+            services.AddTransient<IAddressRepository, AddressRepository>();
 
             services.AddDbContext<CryptocopDbContext>(options =>
             {
