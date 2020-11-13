@@ -33,12 +33,10 @@ CREATE TABLE Orders(
 	City character varying NOT NULL,
 	CardHolderName character varying NOT NULL,
 	MaskedCreditCard character varying NOT NULL,
+	orderDate date NOT NULL,
+	totalPrice real NOT NULL,
 );
 
-
-
-        public DateTime OrderDate { get; set; }
-        public decimal TotalPrice { get; set; }
 
 CREATE TABLE OrderItems(
 	id serial PRIMARY KEY,
@@ -49,6 +47,39 @@ CREATE TABLE OrderItems(
 	TotalPrice real NOT NULL,
 	FOREIGN KEY(OrderId) REFERENCES Orders(id)
 );
+
+CREATE TABLE PaymentCard(
+	id serial PRIMARY KEY,
+    userId int not null,
+	cardholderName character varying NOT NULL,
+	cardNumber character varying NOT NULL,
+	month int NOT NULL,
+	year int NOT NULL,
+	FOREIGN KEY(userId) REFERENCES Users(id)
+);
+
+
+
+CREATE TABLE ShoppingCart(
+	id serial PRIMARY KEY,
+	userId int not null,
+	FOREIGN KEY(userId) REFERENCES Users(id)
+    
+);
+
+
+CREATE TABLE ShoppingCartItem(
+	id serial PRIMARY KEY,
+	shoppingCartId int not null,
+	productIdentifier character varying NOT NULL,
+	quantity real NOT NULL,
+	unitPrice real NOT NULL,
+	FOREIGN KEY(shoppingCartId) REFERENCES ShoppingCart(id)
+    
+);
+
+
+        
 
 
 

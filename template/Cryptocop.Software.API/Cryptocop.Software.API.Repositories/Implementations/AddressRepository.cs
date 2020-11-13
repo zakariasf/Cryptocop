@@ -5,6 +5,11 @@ namespace Cryptocop.Software.API.Repositories.Implementations
 {
     public class AddressRepository : IAddressRepository
     {
+        public AddressRepository(AddressDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
         public void AddAddress(string email, AddressInputModel address)
         {
             throw new System.NotImplementedException();

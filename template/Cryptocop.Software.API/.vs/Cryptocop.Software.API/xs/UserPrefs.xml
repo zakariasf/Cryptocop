@@ -1,28 +1,31 @@
 ﻿<Properties StartupConfiguration="{432F7E92-1B02-4992-B795-F33D5E23FBE7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Cryptocop.Software.API.Repositories/migrations/createTables.sql">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cryptocop.Software.API.Repositories/Interfaces/IAddressRepository.cs">
     <Files>
       <File FileName="Cryptocop.Software.API.Models/DTOs/CryptocurrencyDto.cs" Line="1" Column="1" />
       <File FileName="Cryptocop.Software.API.Models/ImputModels/AddressInputModel.cs" Line="9" Column="1" />
       <File FileName="Cryptocop.Software.API.Models/ImputModels/LoginInputModel.cs" Line="9" Column="8" />
       <File FileName="Cryptocop.Software.API.Models/ImputModels/OrderInputModel.cs" Line="1" Column="1" />
-      <File FileName="Cryptocop.Software.API.Models/ImputModels/PaymentCardInputModel.cs" Line="2" Column="1" />
+      <File FileName="Cryptocop.Software.API.Models/ImputModels/PaymentCardInputModel.cs" Line="19" Column="1" />
       <File FileName="Cryptocop.Software.API.Models/ImputModels/RegisterInputModel.cs" Line="2" Column="1" />
       <File FileName="Cryptocop.Software.API.Models/ImputModels/ShoppingCartItemInputModel.cs" Line="11" Column="148" />
       <File FileName="Cryptocop.Software.API.Models/Entities/User.cs" Line="8" Column="8" />
-      <File FileName="Cryptocop.Software.API.Repositories/migrations/createTables.sql" Line="30" Column="1" />
-      <File FileName="Cryptocop.Software.API.Models/Entities/Order.cs" Line="8" Column="9" />
+      <File FileName="Cryptocop.Software.API.Repositories/migrations/createTables.sql" Line="83" Column="1" />
+      <File FileName="Cryptocop.Software.API.Models/Entities/PaymentCard.cs" Line="8" Column="9" />
+      <File FileName="Cryptocop.Software.API.Models/Entities/ShoppingCart.cs" Line="8" Column="8" />
+      <File FileName="Cryptocop.Software.API.Models/Entities/ShoppingCartItem.cs" Line="8" Column="6" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/AddressRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/PaymentRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Implementations/OrderRepository.cs" Line="1" Column="1" />
+      <File FileName="Cryptocop.Software.API.Repositories/Interfaces/IAddressRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Cryptocop.Software.API" expanded="True">
             <Node name="Cryptocop.Software.API" expanded="True" />
-            <Node name="Cryptocop.Software.API.Models" expanded="True">
-              <Node name="Entities" expanded="True" />
-            </Node>
             <Node name="Cryptocop.Software.API.Repositories" expanded="True">
-              <Node name="migrations" expanded="True">
-                <Node name="createTables.sql" selected="True" />
+              <Node name="Interfaces" expanded="True">
+                <Node name="IAddressRepository.cs" selected="True" />
               </Node>
             </Node>
           </Node>
