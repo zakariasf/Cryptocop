@@ -19,6 +19,6 @@ namespace Cryptocop.Software.API.Models.ImputModels
         public string Country { get; set; }
 
         [Required]
-        public DateTime City { get; set; }
+        public string City { get; set; }
     }
 }

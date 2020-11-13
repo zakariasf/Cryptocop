@@ -6,6 +6,7 @@ namespace Cryptocop.Software.API.Models.Entities
     public class Order
     {
         public int Id { get; set; }
+        public int UserId { get; set; }
         public string Email { get; set; }
         public string FullName { get; set; }
         public string StreetName { get; set; }
@@ -18,5 +19,8 @@ namespace Cryptocop.Software.API.Models.Entities
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
 
+        // Navigation properties
+        public List<OrderItem> OrderItems { get; set; }
+        public User User { get; set; }
     }
 }
