@@ -26,9 +26,9 @@ def on_order_consumed(ch, method, properties, data):
     is_card_valid = cc_validator.validate(order["CreditCard"])
     print(f'Data received: {order}, valid: {is_card_valid}')
 
-channel.basic_consume(consumer_callback=on_order_consumed,
+channel.basic_consume(on_message_callback=on_order_consumed,
                       queue=payment_queue_name,
-                      no_ack=True)
+                      auto_ack=True)
 
 channel.start_consuming()
 connection.close()

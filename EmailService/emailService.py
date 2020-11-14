@@ -39,9 +39,9 @@ def on_order_consumed(ch, method, properties, data):
     is_successful = email_sender.send_email("Order created", order_to_html(order), order["Email"])
     print("Was email successful:", is_successful)
 
-channel.basic_consume(consumer_callback=on_order_consumed,
-                      queue=email_queue_name,
-                      no_ack=True)
+channel.basic_consume(queue=email_queue_name,
+                      on_message_callback=on_order_consumed,
+                      auto_ack=True)
 
 channel.start_consuming()
 connection.close()
